@@ -1,0 +1,10 @@
+#! /bin/bash
+
+echo "script=" $0
+echo "count=" $#
+echo "No.1" $1
+echo "No.2" $2
+echo "all=" $@
+
+
+

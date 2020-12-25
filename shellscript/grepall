@@ -1,0 +1,20 @@
+#! /bin/bash
+if [ -n "$1" ]
+then
+  ptn="$1"
+else
+  exit
+fi
+if  [ -n "$2" ]
+then
+  file="$2"
+else
+  file="*"
+fi
+if [ -n "$3 "]
+then
+  dir="$3"
+else
+  dir="."
+fi
+grep -Hn -e "$ptn" -r --include="$file" "$dir"

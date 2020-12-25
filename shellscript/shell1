@@ -1,0 +1,15 @@
+#! /bin/bash
+#空行を挿入しても動作は変わらない
+echo "hello!"
+
+echo "world"
+
+#クオートとパス名展開
+echo *
+echo "*"
+echo Hello!
+echo "Hello#####"
+
+
+#コメントのテスト
+#--end --#
