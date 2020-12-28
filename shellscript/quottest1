@@ -1,0 +1,8 @@
+#! /bin/bash
+TESTSTR=$1
+if [ "$TESTSTR" = "abc" ]
+then
+  echo "OK"
+else
+  echo "NG"
+fi

@@ -1,18 +1,16 @@
 #! /bin/bash
-if [ -n "$1" ]
-then
+if [ -n "$1" ]; then
   ptn="$1"
 else
+  echo "USAGE: `basename $0` pattern [file] [dir]"
   exit
 fi
-if  [ -n "$2" ]
-then
+if  [ -n "$2" ]; then
   file="$2"
 else
   file="*"
 fi
-if [ -n "$3 "]
-then
+if [ -n "$3 "]; then
   dir="$3"
 else
   dir="."

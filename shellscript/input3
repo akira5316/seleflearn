@@ -1,0 +1,6 @@
+#! /bin/bash
+read -p "input 3 words > " w1 w2 w3
+echo $w1
+echo $w2
+echo $w3
+

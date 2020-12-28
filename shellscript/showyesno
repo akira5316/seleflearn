@@ -1,0 +1,12 @@
+#! /bin/bash
+case ${1,,} in
+  "y"|"yes")
+    echo "YES"
+    echo "OK"
+    ;;
+  "n"|"no")
+    echo "NO"
+    ;;
+  *)
+    echo "undifined";;
+esac

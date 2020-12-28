@@ -1,0 +1,8 @@
+#! /bin/bash
+read -p "input words > " -a ary
+echo ${#ary[*]}
+echo ${ary[0]}
+echo
+for a in ${ary[@]}; do
+  echo $a
+done

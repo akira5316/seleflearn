@@ -1,0 +1,14 @@
+#! /bin/bash
+read -n 1 -p "input? > " str
+echo
+case "$str" in
+  [Yy]|[Yy][Ee][Ss])
+    echo "YES"
+    echo "OK"
+    ;;
+  [Nn]|[Nn][Oo])
+    echo "NO"
+    ;;
+  *)
+    echo "undefined";;
+esac

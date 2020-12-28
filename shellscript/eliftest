@@ -1,0 +1,13 @@
+#! /bin/bash
+if [ $# = 1 ]
+then
+  echo "one"
+elif [ $# = 2 ]
+then
+  echo "two"
+elif [ $# = 3 ]
+then
+  echo "three"
+else
+  echo "ELSE"
+fi

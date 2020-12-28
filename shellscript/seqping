@@ -1,0 +1,5 @@
+#! /bin/bash
+for count in {1..5}; do
+  echo "check: 192.168.1.$count"
+  ping -c 3 192.168.1.$count
+done

@@ -1,0 +1,9 @@
+#! /bin/bash
+for filename in "$@"
+do
+  if [ -f "$filename" ] && [ "${filename##*.}" != "gz" ]; then
+    backupname=$filename.`date +%Y-%m-%d`
+    eval cp "'$filename'" "'$backupname'"
+    eval gzip --force "'$backupname'"
+  fi
+done

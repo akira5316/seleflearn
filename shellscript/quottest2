@@ -1,0 +1,14 @@
+#! /bin/bash
+FILENAME="01 My Song.mp3"
+if [ -f $FILENAME ]
+then
+  echo "$FILENAME is a regular file"
+else 
+  echo "$FILENAME is not a regular file"
+fi
+if [ -f "$FILENAME" ]
+then
+  echo "$FILENAME is a regular file"
+else
+  echo "$FILENAME is not a regular file"
+fi

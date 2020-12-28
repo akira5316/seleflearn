@@ -1,0 +1,7 @@
+#! /bin/bash
+if [ "$LANG" = "C"]; then
+  echo "TRUE"
+else
+  echo "FALSE $LANG"
+fi
+ 

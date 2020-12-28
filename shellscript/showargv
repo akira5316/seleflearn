@@ -1,0 +1,5 @@
+#! /bin/bash
+for argv in $@
+do
+  echo $argv
+done
