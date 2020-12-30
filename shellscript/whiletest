@@ -1,0 +1,7 @@
+#! /bin/bash
+str="-1"
+while [ $str != "0" ]
+do
+  read -p "input? > " str
+  echo your input is $str
+done

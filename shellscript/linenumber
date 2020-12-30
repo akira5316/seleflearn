@@ -1,0 +1,3 @@
+#! /bin/bash
+i=0
+while read str; do let i++; echo "$i:$str"; done

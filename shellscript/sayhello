@@ -1,0 +1,11 @@
+#! /bin/bash
+echo -n "Say Hello? [y/n]"
+while read s; do
+  case "$s" in 
+    "y") echo "Hello!";;
+    "n") echo "ok"; break;;
+    *) echo "input [y] or [n]";
+  esac
+  echo -n "Again? [y/n] "
+done
+echo "bye!"
